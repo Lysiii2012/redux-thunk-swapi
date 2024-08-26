@@ -1,0 +1,1 @@
+export const responsApi = "https://jsonplaceholder.typicode.com/"

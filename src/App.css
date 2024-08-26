@@ -1,0 +1,82 @@
+.App { 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.result{ 
+  min-height: 500px;
+  padding: 40px ;
+  box-sizing: border-box;
+  max-height: 600px;
+  overflow-y: scroll;
+  background: #e3e3e3;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.swapi_top{
+  display: flex;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+}
+.swapi_top button{
+  width: 100px;
+  padding: 10px;
+  background: #61dafb;
+  border: 1px solid #32778a;
+}
+.input_block{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.clear-button{
+  padding: 10px;
+  width: 100px;
+  display: block;
+  text-align: center;
+  margin: 20px 0 0 auto;
+  background: #282c34;
+  color: #fff;
+  font-size: 20px;
+}
+.input_block input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.input_block p{
+  background: #282c34;
+  color: #fff;
+  padding: 10px;
+} 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
